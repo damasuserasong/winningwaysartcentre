@@ -54,6 +54,61 @@
         </div>
     </div>
 </nav>
+    
+<!-- WAEC Promotional Banner -->
+    <section id="waec-promo" data-theme="Dark" class="relative mt-16 bg-slate-900 border-b border-blue-900/40 overflow-hidden">
+        <!-- Background decorative details -->
+        <div class="absolute inset-0 bg-gradient-to-r from-blue-950 via-slate-900 to-blue-950 opacity-90"></div>
+        <div class="absolute -left-16 -top-16 w-64 h-64 bg-blue-600/10 rounded-full blur-3xl"></div>
+        <div class="absolute -right-16 -bottom-16 w-64 h-64 bg-amber-500/10 rounded-full blur-3xl"></div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-10">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+                <!-- Left text content & main CTA -->
+                <div class="md:col-span-7 space-y-5 text-center md:text-left">
+                    <div class="flex flex-col sm:flex-row items-center gap-4 justify-center md:justify-start">
+                        <img src="WAEC Logo.jpg" alt="WAEC Logo" class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl object-contain border border-blue-800 bg-white p-1.5 shadow-lg shrink-0">
+                        <div class="space-y-1">
+                            <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-white leading-tight">
+                                CHECK YOUR <span class="text-amber-400">WACE</span> RESULT HERE
+                            </h2>
+                            <p class="text-blue-200/90 text-sm sm:text-base font-light">
+                                Fast Internet, Scratch Card Sales & Instant Portal Checking Assistance
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex flex-col sm:flex-row items-center gap-4 justify-center md:justify-start pt-1">
+                        <button onclick="scrollToWAECRegistration()" class="w-full sm:w-auto bg-amber-500 hover:bg-amber-600 text-blue-950 font-bold px-8 py-3.5 rounded-xl shadow-lg transition duration-200 flex items-center justify-center gap-2 group">
+                            <i class="fa-solid fa-graduation-cap"></i> Check Result Now
+                            <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+                        </button>
+                        <a href="https://wa.link/kjnkeb" target="_blank" rel="noopener" class="w-full sm:w-auto bg-blue-900/40 hover:bg-blue-900/60 border border-blue-800/80 text-white font-medium px-6 py-3.5 rounded-xl transition duration-200 flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-lg text-emerald-400"></i> Inquiry via WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right supporting visual materials composition -->
+                <div class="md:col-span-5 flex flex-col items-center justify-center">
+                    <!-- Layered images composition -->
+                    <div class="relative w-full max-w-[340px] md:max-w-full h-48 sm:h-56 md:h-64 flex items-center justify-center">
+                        <!-- WAEC Script Image -->
+                        <div class="absolute left-4 md:left-8 w-[140px] sm:w-[160px] md:w-[170px] aspect-[3/4] bg-slate-800 rounded-lg shadow-md overflow-hidden border border-white/10 -rotate-8 transform transition duration-300 hover:-rotate-12 hover:scale-105 z-10">
+                            <img src="WAEC Script.jpg" alt="WAEC Exam Script" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-blue-950/10"></div>
+                        </div>
+                        
+                        <!-- WAEC Resultslip Image -->
+                        <div class="absolute right-4 md:right-8 w-[140px] sm:w-[160px] md:w-[170px] aspect-[3/4] bg-slate-800 rounded-lg shadow-lg overflow-hidden border border-white/20 rotate-6 transform transition duration-300 hover:rotate-12 hover:scale-105 z-20">
+                            <img src="WAEC Resultslip.jpg" alt="WAEC Result Slip" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-blue-950/5"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Hero Section with Faded Background Image -->
     <section id="home" data-theme="Dark" class="relative pt-32 pb-20 text-white min-h-[85vh] flex items-center overflow-hidden">
