@@ -378,19 +378,40 @@
 
                 <!-- Map Card -->
                 <div class="bg-blue-600 rounded-2xl overflow-hidden border border-blue-500 flex flex-col justify-between text-white relative shadow-lg">
-                    <div class="p-8 space-y-4">
-                        <span class="bg-blue-500/20 text-blue-300 border border-blue-400/30 px-3 py-1 rounded-full text-xs font-semibold uppercase">
-                            Find Us On Maps
-                        </span>
-                        <h4 class="text-3xl font-bold">Visit Us in Bamahu</h4>
-                        <p class="text-blue-90/70 text-sm">
-                            WA-KUMASI ROAD (WELLNESS RD WA), Bamahu, Ghana
-                        </p>
-                        <p class="text-blue-100 text-sm-bold">
-                            Phone: <a href="tel:+233206501395" class="text-blue-200 hover:underline">+233 20 650 1395</a>
-                        </p>
+                    <div class="p-6 space-y-4">
+                        <div class="flex items-center justify-between">
+                            <span class="bg-blue-500/20 text-blue-300 border border-blue-400/30 px-3 py-1 rounded-full text-xs font-semibold uppercase">
+                                Find Us On Maps
+                            </span>
+                            <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+                                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span> Verified Location
+                            </span>
+                        </div>
+                        <div>
+                            <h4 class="text-2xl font-bold">Visit Us in Bamahu</h4>
+                            <p class="text-blue-200/90 text-sm mt-1">
+                                WA-KUMASI ROAD (WELLNESS RD WA), Bamahu, Ghana
+                            </p>
+                            <p class="text-blue-100 text-sm font-semibold mt-1">
+                                Phone: <a href="tel:+233206501395" class="text-blue-200 hover:underline">+233 20 650 1395</a>
+                            </p>
+                        </div>
                     </div>
-                    <div class="p-8 bg-blue-900/60 border-t border-blue-800 mt-auto">
+                    
+                    <!-- Interactive Map Preview -->
+                    <div class="px-6 pb-2">
+                        <div class="w-full h-48 rounded-xl overflow-hidden shadow-inner border border-blue-800 bg-blue-900/40 relative">
+                            <iframe 
+                                src="https://maps.google.com/maps?q=Winning%20Ways%20Art%20Centre,%20Bamahu,%20Wa&z=16&output=embed" 
+                                class="w-full h-full border-0 grayscale opacity-90 contrast-125 hover:grayscale-0 hover:opacity-100 transition-all duration-300" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                    
+                    <div class="p-6 bg-blue-900/60 border-t border-blue-800 mt-auto">
                         <a href="https://maps.google.com/?cid=2476759389555728726" target="_blank" rel="noopener" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-xl shadow transition inline-flex items-center justify-center gap-2">
                             <span>Get Directions on Google Maps</span>
                             <i class="fa-solid fa-location-arrow"></i>
